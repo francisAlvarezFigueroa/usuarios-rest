@@ -41,10 +41,10 @@ public class UsuarioModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column
+    @Column(name = "firstName" )
     private String firstName;
 
-    @Column
+    @Column(name = "lastName")
     private String lastName;
 
     @Column
