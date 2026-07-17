@@ -8,11 +8,11 @@ pipeline {
 
     environment {
         APP_NAME = 'vehiculosBuild'
-        IMAGE_NAME = 'vehiculos-api'
-        CONTAINER_NAME = 'vehiculos-api'
+        IMAGE_NAME = 'usuarios-api'
+        CONTAINER_NAME = 'usuarios-api'
         HOST_PORT = '9090'
         CONTAINER_PORT = '8080'
-        WAR_NAME = 'vehiculosBuild.war'
+        WAR_NAME = 'usuariosBuild.war'
         PATH = "/usr/bin:/usr/local/bin:${env.PATH}"
     }
 
