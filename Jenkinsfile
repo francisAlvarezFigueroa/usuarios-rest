@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        APP_NAME = 'vehiculosBuild'
+        APP_NAME = 'usuariosBuild'
         IMAGE_NAME = 'usuarios-api'
         CONTAINER_NAME = 'usuarios-api'
         HOST_PORT = '9090'
